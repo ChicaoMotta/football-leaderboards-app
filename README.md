@@ -1,7 +1,3 @@
-Certainly! Here's a README template for your "football leaderboards app":
-
-**English:**
-
 # Football Leaderboards App
 
 Welcome to the Football Leaderboards App! This is a full-stack Dockerized application that provides a comprehensive overview of soccer team matches and statistics. The app renders a table with team stats, including points, games played, goals scored, goals conceded, etc. Admins can log in to modify match scores, add matches, and control ongoing matches in real time. The project follows RESTful API principles, incorporating SOLID principles and Object-Oriented Programming (OOP).
