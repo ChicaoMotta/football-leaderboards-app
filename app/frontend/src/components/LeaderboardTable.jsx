@@ -29,14 +29,6 @@ const LeaderboardTable = ({ currentFilter }) => {
     }
   }, [currentFilter]);
 
-  useEffect(() => {
-    const endpoint = '/leaderboard';
-
-    if (leaderboard.length === 0) {
-      getLeaderboard(endpoint);
-    }
-  }, [leaderboard]);
-
   if (!leaderboard.length) {
     return (<Loading />);
   }
